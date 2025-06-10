@@ -1,0 +1,15 @@
+.carousel-inner img{
+    padding: 700px;
+    margin-top: -600px;
+}
+.carousel-control-prev{
+background-color: blue;
+margin-bottom:auto
+}
+.carousel-control-next{
+    margin-bottom:auto;
+background-color: blue;
+}
+.carousel-control-next-icon{
+background-color: brown;
+}

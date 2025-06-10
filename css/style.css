@@ -1,0 +1,225 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: #222;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #7F55B1;
+    color: #fff;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(60, 59, 110, 0.5);
+}
+
+.header__logo {
+    width: 380px;
+    height: auto;
+    margin: 0 auto 15px;
+    display: block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.header__logo:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.header__slogan {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #d9c4f0;
+    letter-spacing: 0.05em;
+}
+
+.header__nav {
+    margin-top: 20px;
+}
+
+.header__nav-item {
+    background-color: #5a4ebf;
+    border-radius: 12px;
+    padding: 12px 28px;
+    box-shadow: 0 3px 7px rgba(90, 78, 191, 0.5);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.header__nav-item:hover {
+    background-color: #7b70ff;
+    box-shadow: 0 5px 15px rgba(123, 112, 255, 0.7);
+}
+.header__nav-link {
+    color: #9B7EBD;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+.header__nav-link:hover {
+    color: #ffeb3b;
+}
+
+.main {
+    flex: 1;
+    padding: 50px 15px 80px;
+    background: #FFE1E0;
+    display: flex;
+    justify-content: center;
+}
+
+.arcos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 900px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.arcos__item {
+    background-color: #9B7EBD;
+    border: 4px solid #0d9b2c;
+    border-radius: 22px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    padding: 30px 35px;
+    text-align: center;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.arcos__item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(60, 59, 110, 0.35);
+}
+
+.arcos__titulo {
+    font-size: 26px;
+    margin-bottom: 18px;
+    color: #3c3b6e;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.arcos__descripcion {
+    font-size: 1rem;
+    margin-bottom: 25px;
+    color: #444;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.arcos img {
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 3px solid #00ff40;
+    box-shadow: 0 8px 20px rgba(90, 78, 191, 0.3);
+    transition: transform 0.35s ease;
+    cursor: pointer;
+}
+.arcos img:hover {
+    transform: scale(1.05) rotate(1.5deg);
+}
+
+
+#carouselExample {
+    max-width: 900px;
+    margin: 60px auto 60px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(60, 59, 110, 0.3);
+    background-color: #1a1a2e;
+}
+
+.carousel-inner {
+    max-height: 1200px;
+    max-width: 1200px;
+    
+}
+
+.carousel-item {
+    position: static !important;
+    height: 900px;
+    width: 700px;
+
+  }
+  
+
+.carousel-item img {
+    max-height: 800px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.carousel-item img:hover {
+    transform: scale(1.08) rotate(-2deg);
+}
+
+.carousel-caption {
+    background: rgba(36, 36, 37, 0.85);
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(90, 78, 191, 0.9);
+}
+
+.carousel-caption h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #ffd700;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 1px 5px #5533aa;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #9B7EBD;
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: drop-shadow(0 0 1px #9B7EBD);
+    background-size: 50%, 50%;
+    border-radius: 50%;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #3c3b6e;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.3);
+}
+
+
+.aaa {
+    font-style:italic;
+    font-size: 4.5rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+    box-shadow: 4px 4px 4px #5a4ebf;
+    background-color: #7F55B1;
+    color: #fff;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(60, 59, 110, 0.5);
+}
+.personaje{
+    background-color: #FFE1E0;
+}
